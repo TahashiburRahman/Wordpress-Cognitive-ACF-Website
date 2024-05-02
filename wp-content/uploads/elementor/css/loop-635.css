@@ -1,0 +1,37 @@
+.elementor-635 .elementor-element.elementor-element-88c1b84{--display:flex;--background-transition:0.3s;--border-radius:15px 15px 15px 15px;--padding-block-start:20px;--padding-block-end:20px;--padding-inline-start:20px;--padding-inline-end:20px;}.elementor-635 .elementor-element.elementor-element-88c1b84, .elementor-635 .elementor-element.elementor-element-88c1b84::before{--border-transition:0.3s;}.elementor-635 .elementor-element.elementor-element-8c65dc3{--display:flex;--align-items:flex-start;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--background-transition:0.3s;}.elementor-635 .elementor-element.elementor-element-8c65dc3, .elementor-635 .elementor-element.elementor-element-8c65dc3::before{--border-transition:0.3s;}.elementor-635 .elementor-element.elementor-element-07698a0 img{width:100%;border-radius:25px 25px 25px 25px;}.elementor-635 .elementor-element.elementor-element-c094519 .elementor-heading-title{color:#7A7A7A;}.elementor-635 .elementor-element.elementor-element-c6e7caa{column-gap:0px;}@media(max-width:1024px){.elementor-635 .elementor-element.elementor-element-88c1b84{--min-height:415px;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--align-items:center;--gap:10px 10px;--padding-block-start:020px;--padding-block-end:020px;--padding-inline-start:020px;--padding-inline-end:020px;}.elementor-635 .elementor-element.elementor-element-88c1b84.e-con{--align-self:center;}}@media(max-width:1024px) and (min-width:768px){.elementor-635 .elementor-element.elementor-element-88c1b84{--content-width:600px;}}/* Start custom CSS for container, class: .elementor-element-88c1b84 */.elementor-635 .elementor-element.elementor-element-88c1b84 .e-loop-item:nth-of-type(2n){
+    margin-top: -120px;
+}
+.elementor-635 .elementor-element.elementor-element-88c1b84 .e-loop-item:nth-of-type(4n){
+    margin-top: 0px;
+}
+.elementor-635 .elementor-element.elementor-element-88c1b84 .e-loop-item:nth-of-type(3n)::before{
+    content: "";
+    position: absolute;
+    margin-top: 120px;
+    left: 0%;
+    height: 450px;
+    width: 383px;
+}
+.elementor-635 .elementor-element.elementor-element-88c1b84 .e-loop-item:nth-of-type(3n){
+    order: 3;
+    margin-top: -120px;
+}
+.elementor-635 .elementor-element.elementor-element-88c1b84 .e-loop-item:nth-of-type(4n){
+    visibility: hidden;
+}
+@media (max-width: 768px) {
+    .elementor-635 .elementor-element.elementor-element-88c1b84 .e-loop-item {
+        height: 100px; /* Example height */
+        width: 100%; /* Adjusts width to full container width */
+        margin-bottom: 20px; /* Example margin-bottom */
+        margin-top: 0px !important; /* Overrides previous margin-top settings */
+        order: initial !important; /* Resets any order changes */
+        visibility: visible !important; /* Ensures all items are visible */
+        position: relative !important; /* Resets any absolute positioning */
+    }
+
+    .elementor-635 .elementor-element.elementor-element-88c1b84 .e-loop-item::before {
+        /* If you don't need the ::before pseudo-element in this view, you can effectively disable it like so */
+        content: none !important;
+    }
+}/* End custom CSS */
